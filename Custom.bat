@@ -22,6 +22,7 @@ if %ans%==4 goto :TT
 if %ans%==5 goto :CTS
 if %ans%==6 goto :RS
 if %ans%==7 goto :EXIT
+if %ans% GTR 7 goto :Wrong
 
 :white 
 color f0
@@ -44,7 +45,7 @@ if %ans%==4 goto :TT
 if %ans%==5 goto :CTS
 if %ans%==6 goto :RS
 if %ans%==7 goto :EXIT
-
+if %ans% GTR 7 goto :Wrong
 :black
 color 0f
 cls
@@ -66,7 +67,7 @@ if %ans%==4 goto :TT
 if %ans%==5 goto :CTS
 if %ans%==6 goto :RS
 if %ans%==7 goto :EXIT
-
+if %ans% GTR 7 goto :Wrong
 
 :ERROR
 color 0
@@ -90,6 +91,31 @@ if %ans%==4 goto :TT
 if %ans%==5 goto :CTS
 if %ans%==6 goto :RS
 if %ans%==7 goto :EXIT
+if %ans% GTR 7 goto :Wrong
+
+:Wrong
+cls
+echo [101m [30m Please Enter Between {1 - 7} [0m [32m 
+echo ============================================================
+echo Enter [1] if u want (Hide/UnHide) Taskbar                                                      
+echo Enter [2] if u want (Light/Dark) Mode                                                             
+echo Enter [3] if u want (Light/Dark) TaskBar                                                       
+echo Enter [4] if u want to change Transparency lvl of Taskbar   
+echo Enter [5] if u want to Change Taskbar Size
+echo Enter [6] For Restart Explorer                              
+echo Enter [7] For EXIT                                          
+echo ============================================================
+set /p ans=Enter Value:
+
+if %ans%==1 goto :UH
+if %ans%==2 goto :LD
+if %ans%==3 goto :LDT
+if %ans%==4 goto :TT
+if %ans%==5 goto :CTS
+if %ans%==6 goto :RS
+if %ans%==7 goto :EXIT
+if %ans% GTR 7 goto :Wrong
+
 
 :UH 
 cls
