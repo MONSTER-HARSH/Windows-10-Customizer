@@ -29,3 +29,13 @@ This project provides a batch file for customizing various settings in Windows 1
 
 Contributions to this project are welcome. If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
+## Support
+
+If you need any help or have questions about the project, there are several ways to get support:
+
+- Open an [issue](https://github.com/MONSTER-HARSH/Windows-10-Customizer/issues) on GitHub to report a bug or suggest a feature.
+<!-- - Join our [discussion forum](https://example.com/forum) to ask questions and engage with the community. -->
+- Contact me at harshithvs368@gmail.com for additional assistance.
+
+We value your feedback and are here to help you with any issues you may encounter. Don't hesitate to reach out!
+
