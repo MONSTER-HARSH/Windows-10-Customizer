@@ -15,7 +15,7 @@ This project provides a batch file for customizing various settings in Windows 1
 ## Usage
 
 1. Download or clone this repository to your Windows 10 Home machine.
-2. Right-click on the `customize_windows10_home.bat` file and select "Run as administrator".
+2. Double-click on the `customize_windows10_home.bat` file.
 3. The script will guide you through the customization process, providing options for modifying various settings.
 4. Follow the on-screen instructions and make your desired selections.
 5. Once the customization is complete, restart your computer for the changes to take effect.
