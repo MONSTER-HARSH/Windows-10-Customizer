@@ -4,7 +4,7 @@ This project provides a batch file for customizing various settings in Windows 1
 
 ## Features
 
-- Enables Group Policy Editor (gpedit.msc) on Windows 10 Home (=> Comes in New Update <=).
+- Enables Group Policy Editor (gpedit.msc) on Windows 10 Home ( Comes in New Update ).
 - Modifies system settings such as appearance.
 
 ## Prerequisites
