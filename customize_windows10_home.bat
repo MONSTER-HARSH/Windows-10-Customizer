@@ -1,5 +1,5 @@
 @echo off
-title Good Look Helper
+title Windows-10-Customizer
 color 0
 :menu
 cls
