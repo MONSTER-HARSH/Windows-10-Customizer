@@ -6,7 +6,15 @@ This project provides a batch file for customizing various settings in Windows 1
 ## Features
 
 - Enables Group Policy Editor (gpedit.msc) on Windows 10 Home ( Comes in New Update ).
-- Modifies system settings such as appearance.
+- Modifies system settings such as
+  - Hide/Unhide the Taskbar.
+  - Switch between Light/Dark Mode.
+  - Toggle between Light/Dark Taskbar.
+  - Change the Transparency level of the Taskbar.
+  - Change Taskbar Size.
+  - Restart Explorer.
+
+
 
 ## Prerequisites
 
