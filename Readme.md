@@ -1,4 +1,5 @@
 # Windows 10 Customization Script for Windows 10 Home
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This project provides a batch file for customizing various settings in Windows 10 Home edition, bringing some of the features typically found in Windows 10 Pro edition. The script automates the process of modifying specific settings, allowing users of Windows 10 Home to enhance their system's functionality and personalize their experience.
 
